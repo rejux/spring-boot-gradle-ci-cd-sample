@@ -12,6 +12,9 @@
 
 # Package Files #
 *.jar
+# add this in order to keep this Jar
+!gradle/wrapper/gradle-wrapper.jar
+
 *.war
 *.nar
 *.ear
@@ -29,6 +32,7 @@ hs_err_pid*
 .gradle/
 .build-script/
 build/
+
 
 # IDE
 .idea/
