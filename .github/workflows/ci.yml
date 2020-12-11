@@ -34,7 +34,6 @@ jobs:
         image: rejux/spring-boot-gradle-ci-cd-sample
         tags: v1, latest
         registry: docker.io # the official Docker hub registry
-        dockerfile: Dockerfile.ci
         username: ${{secrets.DOCKERHUB_USERNAME}}
         password: ${{secrets.DOCKERHUB_TOKEN}}
 
